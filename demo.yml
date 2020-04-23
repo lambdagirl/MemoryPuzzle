@@ -1,0 +1,226 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: bash -l
+
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /Users/zpz/code/memory_puzzle
+
+  # Export additional ENV variables
+  env:
+    recording: true
+
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 141
+
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 17
+
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+
+  # Quality
+  # 1 - 100
+  quality: 100
+
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: Terminalizer
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Monaco, Lucida Console, Ubuntu Mono, Monospace"
+
+  # The size of the font
+  fontSize: 12
+
+  # The height of lines
+  lineHeight: 1
+
+  # The spacing between letters
+  letterSpacing: 0
+
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+
+# Records, feel free to edit them
+records:
+  - delay: 4238
+    content: r
+  - delay: 56
+    content: u
+  - delay: 298
+    content: b
+  - delay: 92
+    content: "y"
+  - delay: 368
+    content: " "
+  - delay: 683
+    content: g
+  - delay: 135
+    content: a
+  - delay: 167
+    content: m
+  - delay: 115
+    content: e
+  - delay: 198
+    content: .
+  - delay: 348
+    content: r
+  - delay: 107
+    content: b
+  - delay: 243
+    content: "\r\n"
+  - delay: 238
+    content: "Ignoring byebug-11.1.1 because its extensions are not built. Try: gem pristine byebug --version 11.1.1\r\n\e[0;33;49mWelcome to the Memory Puzzle Game!\e[0m\r\n"
+  - delay: 1002
+    content: "\e[0;34;49mPlease set the difficulty: \e[0m\r\n\e[0;33;49measy, medium, hard\e[0m\r\n"
+  - delay: 2310
+    content: m
+  - delay: 108
+    content: e
+  - delay: 216
+    content: d
+  - delay: 207
+    content: i
+  - delay: 254
+    content: u
+  - delay: 203
+    content: m
+  - delay: 540
+    content: "\r\n\e[0;34;49mDo you want to play yourself, or see the AI play?\e[0m\r\n\e[0;33;49mEnter 'player' or 'ai':\e[0m\r\n"
+  - delay: 1921
+    content: a
+  - delay: 179
+    content: i
+  - delay: 347
+    content: "\r\nFLASH!!!!!\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I Z V\e[0m\r\n\e[0;39;41m1 Q O G C\e[0m\r\n\e[0;39;41m2 F I Z V\e[0m\r\n\e[0;39;41m3 Q O G C\e[0m\r\n"
+  - delay: 513
+    content: "\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0        \e[0m\r\n\e[0;39;41m1        \e[0m\r\n\e[0;39;41m2        \e[0m\r\n\e[0;39;41m3        \e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0        \e[0m\r\n\e[0;39;41m1     G  \e[0m\r\n\e[0;39;41m2        \e[0m\r\n\e[0;39;41m3        \e[0m\r\n"
+  - delay: 1011
+    content: "\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0        \e[0m\r\n\e[0;39;41m1     G  \e[0m\r\n\e[0;39;41m2        \e[0m\r\n\e[0;39;41m3        \e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0        \e[0m\r\n\e[0;39;41m1     G  \e[0m\r\n\e[0;39;41m2        \e[0m\r\n\e[0;39;41m3        \e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0       V\e[0m\r\n\e[0;39;41m1     G  \e[0m\r\n\e[0;39;41m2        \e[0m\r\n\e[0;39;41m3        \e[0m\r\nTry again.\r\n"
+  - delay: 1003
+    content: "\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0        \e[0m\r\n\e[0;39;41m1        \e[0m\r\n\e[0;39;41m2        \e[0m\r\n\e[0;39;41m3        \e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0        \e[0m\r\n\e[0;39;41m1        \e[0m\r\n\e[0;39;41m2        \e[0m\r\n\e[0;39;41m3        \e[0m\r\n"
+  - delay: 5
+    content: "\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0        \e[0m\r\n\e[0;39;41m1        \e[0m\r\n\e[0;39;41m2        \e[0m\r\n\e[0;39;41m3       C\e[0m\r\n"
+  - delay: 1009
+    content: "\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0        \e[0m\r\n\e[0;39;41m1        \e[0m\r\n\e[0;39;41m2        \e[0m\r\n\e[0;39;41m3       C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0        \e[0m\r\n\e[0;39;41m1        \e[0m\r\n\e[0;39;41m2        \e[0m\r\n\e[0;39;41m3       C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0        \e[0m\r\n\e[0;39;41m1       C\e[0m\r\n\e[0;39;41m2        \e[0m\r\n\e[0;39;41m3       C\e[0m\r\n"
+  - delay: 1008
+    content: "\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0        \e[0m\r\n\e[0;39;41m1       C\e[0m\r\n\e[0;39;41m2        \e[0m\r\n\e[0;39;41m3       C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0        \e[0m\r\n\e[0;39;41m1       C\e[0m\r\n\e[0;39;41m2        \e[0m\r\n\e[0;39;41m3       C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0     Z  \e[0m\r\n\e[0;39;41m1       C\e[0m\r\n\e[0;39;41m2        \e[0m\r\n\e[0;39;41m3       C\e[0m\r\n"
+  - delay: 1007
+    content: "\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0     Z  \e[0m\r\n\e[0;39;41m1       C\e[0m\r\n\e[0;39;41m2        \e[0m\r\n\e[0;39;41m3       C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0     Z  \e[0m\r\n\e[0;39;41m1       C\e[0m\r\n\e[0;39;41m2        \e[0m\r\n\e[0;39;41m3       C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0     Z  \e[0m\r\n\e[0;39;41m1       C\e[0m\r\n\e[0;39;41m2   I    \e[0m\r\n\e[0;39;41m3       C\e[0m\r\nTry again.\r\n"
+  - delay: 1008
+    content: "\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0        \e[0m\r\n\e[0;39;41m1       C\e[0m\r\n\e[0;39;41m2        \e[0m\r\n\e[0;39;41m3       C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0        \e[0m\r\n\e[0;39;41m1       C\e[0m\r\n\e[0;39;41m2        \e[0m\r\n\e[0;39;41m3       C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0        \e[0m\r\n\e[0;39;41m1       C\e[0m\r\n\e[0;39;41m2 F      \e[0m\r\n\e[0;39;41m3       C\e[0m\r\n"
+  - delay: 1007
+    content: "\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0        \e[0m\r\n\e[0;39;41m1       C\e[0m\r\n\e[0;39;41m2 F      \e[0m\r\n\e[0;39;41m3       C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0        \e[0m\r\n\e[0;39;41m1       C\e[0m\r\n\e[0;39;41m2 F      \e[0m\r\n\e[0;39;41m3       C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0   I    \e[0m\r\n\e[0;39;41m1       C\e[0m\r\n\e[0;39;41m2 F      \e[0m\r\n\e[0;39;41m3       C\e[0m\r\nTry again.\r\n"
+  - delay: 1009
+    content: "\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0        \e[0m\r\n\e[0;39;41m1       C\e[0m\r\n\e[0;39;41m2        \e[0m\r\n\e[0;39;41m3       C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0        \e[0m\r\n\e[0;39;41m1       C\e[0m\r\n\e[0;39;41m2        \e[0m\r\n\e[0;39;41m3       C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0        \e[0m\r\n\e[0;39;41m1       C\e[0m\r\n\e[0;39;41m2   I    \e[0m\r\n\e[0;39;41m3       C\e[0m\r\n"
+  - delay: 1006
+    content: "\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0        \e[0m\r\n\e[0;39;41m1       C\e[0m\r\n\e[0;39;41m2   I    \e[0m\r\n\e[0;39;41m3       C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0        \e[0m\r\n\e[0;39;41m1       C\e[0m\r\n\e[0;39;41m2   I    \e[0m\r\n\e[0;39;41m3       C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0   I    \e[0m\r\n\e[0;39;41m1       C\e[0m\r\n\e[0;39;41m2   I    \e[0m\r\n\e[0;39;41m3       C\e[0m\r\n"
+  - delay: 1009
+    content: "\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0   I    \e[0m\r\n\e[0;39;41m1       C\e[0m\r\n\e[0;39;41m2   I    \e[0m\r\n\e[0;39;41m3       C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0   I    \e[0m\r\n\e[0;39;41m1       C\e[0m\r\n\e[0;39;41m2   I    \e[0m\r\n\e[0;39;41m3       C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I    \e[0m\r\n\e[0;39;41m1       C\e[0m\r\n\e[0;39;41m2   I    \e[0m\r\n\e[0;39;41m3       C\e[0m\r\n"
+  - delay: 1009
+    content: "\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I    \e[0m\r\n\e[0;39;41m1       C\e[0m\r\n\e[0;39;41m2   I    \e[0m\r\n\e[0;39;41m3       C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I    \e[0m\r\n\e[0;39;41m1       C\e[0m\r\n\e[0;39;41m2   I    \e[0m\r\n\e[0;39;41m3       C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I    \e[0m\r\n\e[0;39;41m1       C\e[0m\r\n\e[0;39;41m2 F I    \e[0m\r\n\e[0;39;41m3       C\e[0m\r\n"
+  - delay: 1009
+    content: "\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I    \e[0m\r\n\e[0;39;41m1       C\e[0m\r\n\e[0;39;41m2 F I    \e[0m\r\n\e[0;39;41m3       C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I    \e[0m\r\n\e[0;39;41m1       C\e[0m\r\n\e[0;39;41m2 F I    \e[0m\r\n\e[0;39;41m3       C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I    \e[0m\r\n\e[0;39;41m1 Q     C\e[0m\r\n\e[0;39;41m2 F I    \e[0m\r\n\e[0;39;41m3       C\e[0m\r\n"
+  - delay: 1006
+    content: "\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I    \e[0m\r\n\e[0;39;41m1 Q     C\e[0m\r\n\e[0;39;41m2 F I    \e[0m\r\n\e[0;39;41m3       C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I    \e[0m\r\n\e[0;39;41m1 Q     C\e[0m\r\n\e[0;39;41m2 F I    \e[0m\r\n\e[0;39;41m3       C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I    \e[0m\r\n\e[0;39;41m1 Q     C\e[0m\r\n\e[0;39;41m2 F I    \e[0m\r\n\e[0;39;41m3   O   C\e[0m\r\nTry again.\r\n"
+  - delay: 1006
+    content: "\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I    \e[0m\r\n\e[0;39;41m1       C\e[0m\r\n\e[0;39;41m2 F I    \e[0m\r\n\e[0;39;41m3       C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I    \e[0m\r\n\e[0;39;41m1       C\e[0m\r\n\e[0;39;41m2 F I    \e[0m\r\n\e[0;39;41m3       C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I    \e[0m\r\n\e[0;39;41m1       C\e[0m\r\n\e[0;39;41m2 F I    \e[0m\r\n\e[0;39;41m3 Q     C\e[0m\r\n"
+  - delay: 1008
+    content: "\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I    \e[0m\r\n\e[0;39;41m1       C\e[0m\r\n\e[0;39;41m2 F I    \e[0m\r\n\e[0;39;41m3 Q     C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I    \e[0m\r\n\e[0;39;41m1       C\e[0m\r\n\e[0;39;41m2 F I    \e[0m\r\n\e[0;39;41m3 Q     C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I    \e[0m\r\n\e[0;39;41m1 Q     C\e[0m\r\n\e[0;39;41m2 F I    \e[0m\r\n\e[0;39;41m3 Q     C\e[0m\r\n"
+  - delay: 1009
+    content: "\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I    \e[0m\r\n\e[0;39;41m1 Q     C\e[0m\r\n\e[0;39;41m2 F I    \e[0m\r\n\e[0;39;41m3 Q     C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I    \e[0m\r\n\e[0;39;41m1 Q     C\e[0m\r\n\e[0;39;41m2 F I    \e[0m\r\n\e[0;39;41m3 Q     C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I    \e[0m\r\n\e[0;39;41m1 Q     C\e[0m\r\n\e[0;39;41m2 F I   V\e[0m\r\n\e[0;39;41m3 Q     C\e[0m\r\n"
+  - delay: 1007
+    content: "\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I    \e[0m\r\n\e[0;39;41m1 Q     C\e[0m\r\n\e[0;39;41m2 F I   V\e[0m\r\n\e[0;39;41m3 Q     C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I    \e[0m\r\n\e[0;39;41m1 Q     C\e[0m\r\n\e[0;39;41m2 F I   V\e[0m\r\n\e[0;39;41m3 Q     C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I   V\e[0m\r\n\e[0;39;41m1 Q     C\e[0m\r\n\e[0;39;41m2 F I   V\e[0m\r\n\e[0;39;41m3 Q     C\e[0m\r\n"
+  - delay: 1008
+    content: "\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I   V\e[0m\r\n\e[0;39;41m1 Q     C\e[0m\r\n\e[0;39;41m2 F I   V\e[0m\r\n\e[0;39;41m3 Q     C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I   V\e[0m\r\n\e[0;39;41m1 Q     C\e[0m\r\n\e[0;39;41m2 F I   V\e[0m\r\n\e[0;39;41m3 Q     C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I   V\e[0m\r\n\e[0;39;41m1 Q     C\e[0m\r\n\e[0;39;41m2 F I   V\e[0m\r\n\e[0;39;41m3 Q   G C\e[0m\r\n"
+  - delay: 1009
+    content: "\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I   V\e[0m\r\n\e[0;39;41m1 Q     C\e[0m\r\n\e[0;39;41m2 F I   V\e[0m\r\n\e[0;39;41m3 Q   G C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I   V\e[0m\r\n\e[0;39;41m1 Q     C\e[0m\r\n\e[0;39;41m2 F I   V\e[0m\r\n\e[0;39;41m3 Q   G C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I   V\e[0m\r\n\e[0;39;41m1 Q   G C\e[0m\r\n\e[0;39;41m2 F I   V\e[0m\r\n\e[0;39;41m3 Q   G C\e[0m\r\n"
+  - delay: 1007
+    content: "\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I   V\e[0m\r\n\e[0;39;41m1 Q   G C\e[0m\r\n\e[0;39;41m2 F I   V\e[0m\r\n\e[0;39;41m3 Q   G C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I   V\e[0m\r\n\e[0;39;41m1 Q   G C\e[0m\r\n\e[0;39;41m2 F I   V\e[0m\r\n\e[0;39;41m3 Q   G C\e[0m\r\n"
+  - delay: 5
+    content: "\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I   V\e[0m\r\n\e[0;39;41m1 Q   G C\e[0m\r\n\e[0;39;41m2 F I Z V\e[0m\r\n\e[0;39;41m3 Q   G C\e[0m\r\n"
+  - delay: 1009
+    content: "\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I   V\e[0m\r\n\e[0;39;41m1 Q   G C\e[0m\r\n\e[0;39;41m2 F I Z V\e[0m\r\n\e[0;39;41m3 Q   G C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I   V\e[0m\r\n\e[0;39;41m1 Q   G C\e[0m\r\n\e[0;39;41m2 F I Z V\e[0m\r\n\e[0;39;41m3 Q   G C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I Z V\e[0m\r\n\e[0;39;41m1 Q   G C\e[0m\r\n\e[0;39;41m2 F I Z V\e[0m\r\n\e[0;39;41m3 Q   G C\e[0m\r\n"
+  - delay: 1004
+    content: "\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I Z V\e[0m\r\n\e[0;39;41m1 Q   G C\e[0m\r\n\e[0;39;41m2 F I Z V\e[0m\r\n\e[0;39;41m3 Q   G C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I Z V\e[0m\r\n\e[0;39;41m1 Q   G C\e[0m\r\n\e[0;39;41m2 F I Z V\e[0m\r\n\e[0;39;41m3 Q   G C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I Z V\e[0m\r\n\e[0;39;41m1 Q O G C\e[0m\r\n\e[0;39;41m2 F I Z V\e[0m\r\n\e[0;39;41m3 Q   G C\e[0m\r\n"
+  - delay: 1007
+    content: "\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I Z V\e[0m\r\n\e[0;39;41m1 Q O G C\e[0m\r\n\e[0;39;41m2 F I Z V\e[0m\r\n\e[0;39;41m3 Q   G C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I Z V\e[0m\r\n\e[0;39;41m1 Q O G C\e[0m\r\n\e[0;39;41m2 F I Z V\e[0m\r\n\e[0;39;41m3 Q   G C\e[0m\r\n\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I Z V\e[0m\r\n\e[0;39;41m1 Q O G C\e[0m\r\n\e[0;39;41m2 F I Z V\e[0m\r\n\e[0;39;41m3 Q O G C\e[0m\r\n"
+  - delay: 1007
+    content: "\e[H\e[2J\e[0;39;44m  0 1 2 3\e[0m\r\n\e[0;39;41m0 F I Z V\e[0m\r\n\e[0;39;41m1 Q O G C\e[0m\r\n\e[0;39;41m2 F I Z V\e[0m\r\n\e[0;39;41m3 Q O G C\e[0m\r\n\e[0;33;49mCongratulations!!you won!!!!\e[0m\r\nPeizhis-MacBook-Pro:memory_puzzle zpz$ "
+  - delay: 2062
+    content: e
+  - delay: 206
+    content: x
+  - delay: 162
+    content: i
+  - delay: 189
+    content: t
+  - delay: 207
+    content: "\r\nlogout\r\n"
