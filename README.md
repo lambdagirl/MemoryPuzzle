@@ -24,3 +24,5 @@ ruby game.rb
 ```
 
 It works! Play it by your lonely, lonely self!
+
+![](https://github.com/lambdagirl/MemoryPuzzle.rb/blob/master/demo.gif)
