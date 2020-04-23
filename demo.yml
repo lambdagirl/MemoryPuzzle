@@ -49,7 +49,7 @@ config:
   # Don't forget to add a backgroundColor style with a null as type
   frameBox:
     type: floating
-    title: Terminalizer
+    title: Memory Puzzle by Peizhi Zheng
     style:
       border: 0px black solid
       # boxShadow: none
@@ -94,13 +94,13 @@ config:
     black: "#232628"
     red: "#fc4384"
     green: "#b3e33b"
-    yellow: "#ffa727"
-    blue: "#75dff2"
+    yellow: "#FFFF00"
+    blue: "#2A8EBA"
     magenta: "#ae89fe"
     cyan: "#708387"
     white: "#d5d5d0"
     brightBlack: "#626566"
-    brightRed: "#ff7fac"
+    brightRed: "#FA0F4F"
     brightGreen: "#c8ed71"
     brightYellow: "#ebdf86"
     brightBlue: "#75dff2"
@@ -137,7 +137,7 @@ records:
   - delay: 243
     content: "\r\n"
   - delay: 238
-    content: "Ignoring byebug-11.1.1 because its extensions are not built. Try: gem pristine byebug --version 11.1.1\r\n\e[0;33;49mWelcome to the Memory Puzzle Game!\e[0m\r\n"
+    content: "\e[0;33;49mWelcome to the Memory Puzzle Game!\e[0m\r\n"
   - delay: 1002
     content: "\e[0;34;49mPlease set the difficulty: \e[0m\r\n\e[0;33;49measy, medium, hard\e[0m\r\n"
   - delay: 2310
