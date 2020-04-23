@@ -100,13 +100,13 @@ config:
     cyan: "#708387"
     white: "#d5d5d0"
     brightBlack: "#626566"
-    brightRed: "#FA0F4F"
+    brightRed: "#fc4384"
     brightGreen: "#c8ed71"
     brightYellow: "#ebdf86"
-    brightBlue: "#75dff2"
+    brightBlue: "#2A8EBA"
     brightMagenta: "#ae89fe"
     brightCyan: "#b1c6ca"
-    brightWhite: "#f9f9f4"
+    brightWhite: "#ffffff"
 
 # Records, feel free to edit them
 records:
